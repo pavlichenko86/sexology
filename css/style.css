@@ -1,0 +1,525 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Oxygen', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	min-width: 521px;
+}
+
+header{
+	width: 100%;
+	height: 100%;
+	background: #000 url(../img/header2.jpg) no-repeat 0 0;
+	background-size: cover;
+	overflow: hidden;
+}
+
+.left{
+	width: 66%;
+	float: left;
+	padding-top: 66px;
+}
+
+.left h1{
+	color: #e8b468;
+	font-size: 37px;
+    padding-left: 15%;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+	
+}
+.left h3{
+	color: #eacba0;
+	padding-left: 33%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.left p{
+	color: #f9f9f9;
+    padding-left: 36%;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.buyNow{
+	display: block;
+    width: 120px;
+    margin-left: 33%;
+    text-align: center;
+    padding: 10px 20px;
+    background: #f79300;
+    border: 3px solid #e6b25f;
+    border-radius: 3px;
+    margin-top: 45px;
+	color: #000;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.buyNow:hover{
+	-webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 1);
+	-moz-box-shadow:    3px 3px 5px 0px rgba(0, 0, 0, 1);
+	box-shadow:         3px 3px 5px 0px rgba(0, 0, 0, 1);
+	transition: all 0.2s;
+}
+.right{
+	width: 33%;
+	float: right;
+}
+.right__cover{
+	width: 360px;
+	position: relative;
+    top: 70px;
+    z-index: 1;
+}
+.header__bottom{
+	height: 116px;
+    color: #fff;
+    font-size: 20px;
+    background: #000;
+    opacity: 0.5;
+    clear: both;
+}
+.header__info{
+	width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+}
+.secondScreen{
+	width: 100%;
+	height: 100%;
+	background: #000 url(../img/screen2.jpg) no-repeat 0 0;
+	background-size: cover;
+	overflow: hidden;
+}
+.secondScreen__intro{
+	width: 80%;
+	height: 100px;
+	background: none;
+	margin: 40px auto 0;
+	color: #e8b468;
+	font-family: 'Abel', sans-serif;
+	text-align: center;
+	font-size: 37px;
+	border-bottom: 1px solid #655744;
+}
+.secondScreen__left{
+	width: 50%;
+	margin-top: 60px;
+	float: left;
+}
+.secondScreen__left__main{
+	padding-left: 20%;
+	padding-right: 15px;
+	font-size: 24px;
+	color: #e8b468;
+	text-align: center;
+	margin-bottom: 10px;
+    margin-top: -10px;
+    text-decoration: underline;
+}
+.secondScreen__right__main{
+	padding-left: 15px;
+	padding-right: 20%;
+	font-size: 24px;
+	color: #e8b468;
+	text-align: center;
+	margin-bottom: 10px;
+    margin-top: -10px;
+    text-decoration: underline;
+}
+.secondScreen__left__item{
+	padding: 20px 15px 0 20%;
+	font-size: 18px;
+	color: #fbd59d;
+	text-align: justify;
+	
+}
+.secondScreen__right__item{
+	padding: 20px 20% 0 15px; 
+	font-size: 18px;
+	color: #fbd59d;
+	text-align: justify;
+}
+.secondScreen__right{
+	width: 50%;
+	margin-top: 60px;
+	float: right;
+}
+.secondScreen__right:after{
+	content: ""
+	display: block;
+	clear: both;
+}
+.secondScreen__bottom{
+	width: 70%;
+	padding-top: 45px;
+	padding-bottom: 30px;
+	margin: 0 auto;
+	clear: both;
+}
+
+.secondScreen__bottom__item{
+	font-size: 18px;
+    color: #fff;
+    padding-top: 20px;
+    padding-left: 30px;
+    position: relative;
+}
+.secondScreen__bottom__item:before{
+	content: "";
+    display: block;
+    width: 14px;
+    position: absolute;
+    height: 14px;
+    background: url(../img/bullet.png) no-repeat 0 0;
+    top: 25px;
+    left: 0;
+}
+.thirdScreen{
+	width: 100%;
+	height: 100%;
+	background: #000 url(../img/screen3.jpg) no-repeat 0 0;
+	background-size: cover;
+	overflow: hidden;
+}
+.thirdScreen__intro{
+	width: 80%;
+	height: 100px;
+	background: none;
+	margin: 40px auto 0;
+	color: #e8b468;
+	font-family: 'Abel', sans-serif;
+	text-align: center;
+	font-size: 37px;
+}
+.thirdScreen__line{
+	width: 80%;
+	overflow: hidden;
+    margin: 0 auto;
+}
+.thirdScreen__line_2{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+.thirdScreen__item_l{
+	width: 49%;
+    min-height: 220px;
+    float: left;
+    margin-left: 5px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+.thirdScreen__item_r{
+	width: 49%;
+	min-height: 220px;
+	float: right;
+	margin-left: 5px;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.3);
+	position: relative;
+}
+.thirdScreen__item__quote{
+    padding: 20px 10px 0 120px;
+    position: relative;
+}
+.thirdScreen__item__quote:before{
+	content: "";
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: url(../img/kav3.png) no-repeat 0 0;
+    clear: both;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    opacity: 0.4;
+}
+.thirdScreen__item__photo{
+	position: absolute;
+    left: 15px;
+    top: 90px;
+}
+.thirdScreen__item__name{
+	position: absolute;
+    left: 165px;
+    top: 145px;
+    font-size: 18px;
+    font-weight: bold;
+    color: bisque;
+}
+.thirdScreen__item__prof{
+	position: absolute;
+    left: 165px;
+    top: 170px;
+    font-size: 15px;
+}
+
+.fourthScreen{
+	width: 100%;
+	height: 100%;
+	background: #000 url(../img/girl2.jpg) no-repeat 0 0;
+	background-size: cover;
+	overflow: hidden;
+}
+.fourthScreen_wrap{
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.9);
+}
+.fourthScreen__intro{
+	width: 80%;
+	background: none;
+	margin: 0 auto;
+	padding-top: 40px;
+	color: #e8b468;
+	font-family: 'Abel', sans-serif;
+	text-align: center;
+	font-size: 37px;
+	border-bottom: thick;
+	position: relative;
+}
+.fourthScreen__main{
+	height: 100px;
+    border-bottom: 1px solid #b7b5b3;
+    text-shadow: #775f5f 0 0 77px;
+}
+.fourthScreen__item{
+	width: 637px;
+    margin: 90px 0 200px 350px;
+    color: white;
+    padding: 30px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 26px;
+    background: rgba(0, 0, 0, 0.4);
+}
+.fourthScreen__item:before{
+	content: "";
+    display: block;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 80px;
+    top: 114px;
+    background: url(../img/author.png) no-repeat 0 0;
+}
+.fourthScreen__item__name{
+	font-weight: bold;
+    font-size: 22px;
+    color: #e8a746;
+}
+.fifthScreen{
+	width: 100%;
+	height: 100%;
+	background: url(../img/screen6.jpg) no-repeat 0 0;
+	background-size: cover;
+	text-align: center;
+}
+.fifthScreen__title{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Abel', sans-serif;
+	padding-top: 50px;
+	color: #e8b468;
+	font-size: 34px;
+}
+.fifthScreen__subTitle{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 20px;
+	color: #eac999;
+	font-size: 27px;
+}
+.fifthScreen__text{
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 20px;
+	color: #fff;
+	font-size: 18px;
+}
+.fifthScreen__button, .fifthScreen__img{
+	display: inline-block;
+	text-align: center;
+	width: 300px;
+	margin-top: 40px;
+    vertical-align: middle;
+}
+.fifthScreen__img img{
+	width: 250px;
+}
+.fifthScreen__img:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+footer{
+	width: 100%;
+	height: 40px;
+	background: #000;
+	color: #fff;
+	line-height: 40px;
+	font-size: 13px;
+	text-align: center;
+}
+.footer__mail{
+	position: relative;
+	right: 25%;
+}
+.footer__mail a{
+	color: #fff;
+	text-decoration: none;
+}
+
+@media screen and (max-width:1180px), only screen and (max-device-width:1180px) {
+	.left p, .left h3{
+		padding-left: 25%;
+	}
+	.buyNow{
+		margin-bottom: 15px;
+	}
+	.right__cover{
+		width: 300px;
+    	top: 120px;
+	}
+	.fourthScreen__item{
+		width: 62%;
+	}
+	.fifthScreen__text{
+		font-size: 17px;
+	}
+
+}
+@media screen and (max-width:1024px), only screen and (max-device-width:1024px) {
+	.left h1{
+		font-size: 32px;
+    	padding-left: 0;
+	}
+	.left p, .left h3 {
+    	padding-left: 8%;
+	}
+	.buyNow {
+	    margin: 10px 0 10px 65%;
+	}
+	.right__cover {
+	    width: 240px;
+	    top: 70px;
+	}
+	.header__info {
+	    width: 93%;
+	    margin: 0 auto;
+	    text-align: center;
+	    padding: 30px;
+	}
+	.secondScreen__intro, .thirdScreen__intro, .fourthScreen__intro{
+		font-size: 32px;
+	}
+	.thirdScreen__line {
+	    width: 99%;
+	}
+	.fourthScreen__item{
+		width: 98%;
+    margin: 220px auto 20px;
+    padding: 20px;
+	}
+	.fourthScreen__item:before{
+		left: 50%;
+    	transform: translateX(-50%);
+    	top: 20px;
+	}
+	.fifthScreen__button, .fifthScreen__img{
+		width: 49%;
+	}
+	.secondScreen__left__main, .secondScreen__right__main{
+		min-height: 60px;
+	}
+
+}
+@media screen and (max-width:768px), only screen and (max-device-width:768px) {
+	.left{
+		float: none;
+		width: 100%;
+	}
+	.left p, .left h3 {
+	    padding: 10px;
+	}
+	.right{
+		float: none;
+		width: 100%;
+	}
+	.right__cover {
+	    width: 210px;
+    	position: absolute;
+    	top: 410px;
+    	left: 5%;
+	}
+	.buyNow {
+	    margin: 150px 0 10px 65%;
+	}
+	.header__info{
+		margin: 145px auto 0;
+	}
+	.secondScreen__left, .secondScreen__right{
+		float: none;
+		width: 100%;
+	}
+	.secondScreen__left__main, .secondScreen__right__main{
+		min-height: 0;
+		padding: 0;
+	}
+	.secondScreen__left__item, .secondScreen__right__item{
+		padding: 20px;
+	}
+	.secondScreen__bottom{
+		width: 100%;
+		padding-left: 20px;
+	}
+	.secondScreen__bottom__item{
+		padding-right: 25px;
+	}
+	.thirdScreen__intro{
+		min-height: 150px;
+	}
+	.thirdScreen__item_l{
+		width: 100%;
+		float: none;
+		margin: 0;
+	}
+	.thirdScreen__item_r{
+		width: 100%;
+		float: none;
+		margin-left: 0;
+		margin-top: 10px;
+	}
+	.fifthScreen__button .buyNow{
+		margin: 70px 0 10px 30%;
+	}
+	.fifthScreen__subTitle, .fifthScreen__text{
+		width: 90%;
+	}
+
+
+}
+@media screen and (max-width:640px), only screen and (max-device-width:640px) {
+	.right__cover{
+		top: 450px;
+	}
+	.header__bottom{
+		font-size: 18px;
+	}
+	.secondScreen__intro, .thirdScreen__intro, .fourthScreen__intro {
+	    font-size: 22px;
+	}
+	.thirdScreen__intro {
+	    min-height: 100px;
+	}
+
+}
